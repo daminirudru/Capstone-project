@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+
+/* Container for cards */
+.photo_gallery {
+    display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 4 / 3; 
+    object-fit: cover;
+    display: block;
+}
+
+.card_text {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background: #f8f8f8;
+}
+

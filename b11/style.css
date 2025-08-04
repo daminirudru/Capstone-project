@@ -1,0 +1,98 @@
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    #navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgb(9, 122, 160);
+      padding: 10px 20px;
+    }
+
+    #navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+   }
+
+   #navbar ul li a {
+      color: white;
+      font-weight: bold;
+    }
+
+
+
+  .search_bar {
+     display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 12px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+   }
+
+   .search_bar input {
+    border: none;
+    outline: none;
+      padding: 5px;
+      font-size: 14px;
+      width: 150px;
+   }
+
+   .search_bar img {
+      width: 18px;
+      height: 18px;
+      margin-left: 5px;
+      cursor: pointer;
+   }
+
+
+    .main{
+        display: flex;
+        height: 100vh;
+    }
+
+    #options {
+        align-items: center;
+        display: flex;
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    #rmain {
+        margin: 0 auto;
+        background-color: bisque;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        display: flex; 
+    }
+
+    .btns{
+        border: none;
+        height: 30px;
+        width: 90%;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 15px;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+
+    .left{
+        width: 25%;
+        background-color: rgb(9, 122, 160);
+        justify-content: center;
+        align-items: center;
+        overflow-y: auto;
+    }
+
+    .right{
+        width: 75%;
+        background-color: bisque;
+    }
+
